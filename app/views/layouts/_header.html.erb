@@ -20,7 +20,7 @@
           <%= link_to 'About', about_path , class: "nav-link" %>
         </li>
         <li class="nav-item">
-          <%= link_to 'Login' , new_user_session_path , class: "nav-link" %>
+          <%= link_to '<h4><i class="fa fa-sign-in" aria-hidden="true"></i></h4>'.html_safe , new_user_session_path , class: "nav-link" %>
           <!-- <a class="nav-link" href="#">login</a> -->
         </li>
       <% end %>
@@ -31,5 +31,7 @@
     </form>
   </div>
 </nav>
+
+
 
 

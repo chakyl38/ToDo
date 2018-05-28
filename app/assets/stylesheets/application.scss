@@ -1,5 +1,6 @@
 @import "bootstrap";
 @import "font-awesome";
+@import "devise";
 
 .jumbotron{
 	text-align: center;
@@ -8,4 +9,10 @@
 .btn-primary{
 	background-color: #74b9ff !important;
 	border-color: #74b9ff !important;
+}
+
+.btn-success{
+	background-color: #55efc4 !important;
+	border-color: #55efc4 !important;
+	
 }
